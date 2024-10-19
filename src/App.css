@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #282c34;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: top 0.3s;
+}
+
+header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#landing {
+  padding-top: 100px;
+}
+
+#projects {
+  background-color: #f7f7f7;
+}
+
+#contact {
+  background-color: #eee;
+}
+
+.hidden {
+  top: -80px;
+}
